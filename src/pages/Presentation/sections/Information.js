@@ -49,7 +49,7 @@ function Information() {
                     Projects
                   </>
                 }
-                description="Examples of projects for you to experiment with, modify, assign, and share."
+                description="Here are some examples of projects for you to experiment with, modify, assign, and share."
               />
               <RotatingCardBack
                 image={bgBack}
@@ -72,12 +72,12 @@ function Information() {
                 color="secondary"
                 title={
                   <>
-                    Collaborative
+                    Interactive
                     <br />
                     Games
                   </>
                 }
-                description="Fun and learning are not mutually exclusive. Check out these collaborative games built for crative problem solving."
+                description="Fun and learning are not mutually exclusive. Check out these collaborative games built for creativity."
               />
               <RotatingCardBack
                 image={bgBack}
@@ -105,7 +105,7 @@ function Information() {
                     Tools
                   </>
                 }
-                description="In order to transform education, you'll need a couple tools to help you."
+                description="In order to transform education, you'll need some educational tools to help you."
               />
               <RotatingCardBack
                 image={bgBack}

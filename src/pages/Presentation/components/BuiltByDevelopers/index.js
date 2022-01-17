@@ -53,8 +53,8 @@ function BuiltByDevelopers() {
           We can&apos;t predict the future, and educators are really futurists after all. To prepare
           for an unpredictable world ripe with change, innovation, transition, and transformation we
           must foster and promote creativity and problem solving through every facet of education.
-          We must learn how to adapt. We can&apos;t afford to bet on &lsquo;how it has always been
-          done&rsquo; to work in world so different than &lsquo;how it used to be&rsquo;. We must
+          We must learn how to adapt. We can&apos;t afford to rely on &lsquo;how it has always been
+          done&rsquo; to work in a world so different from &lsquo;how it used to be&rsquo;. We must
           embrace creativity, and we must do so without fear, with passion, and with ferocity.
         </MKTypography>
         <MKTypography
