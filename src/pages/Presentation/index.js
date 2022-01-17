@@ -28,15 +28,10 @@ import MKSocialButton from "components/MKSocialButton";
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
-import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
-import Counters from "pages/Presentation/sections/Counters";
+
 import Information from "pages/Presentation/sections/Information";
-import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
-import Pages from "pages/Presentation/sections/Pages";
-import Testimonials from "pages/Presentation/sections/Testimonials";
-import Download from "pages/Presentation/sections/Download";
 
 // Presentation page components
 import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
@@ -46,7 +41,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/home-cover.jpg";
 
 function Presentation() {
   return (
@@ -94,7 +89,8 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              An educator can facilitate learning at any time, at any place. Let this be your place.
+              Learning occurs everywhere, all the time. <br />
+              Let this place help you <br /> where ever you are.
             </MKTypography>
           </Grid>
         </Container>
@@ -110,59 +106,10 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <Counters />
-        <Information />
-        <DesignBlocks />
-        <Pages />
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
         </Container>
-        <Container>
-          <Grid container spacing={3}>
-            <Grid item xs={12} lg={4}>
-              <FilledInfoCard
-                variant="gradient"
-                color="info"
-                icon="flag"
-                title="Getting Started"
-                description="Check the possible ways of working with our product and the necessary files for building your own project."
-                action={{
-                  type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/material-kit/",
-                  label: "Let's start",
-                }}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <FilledInfoCard
-                color="info"
-                icon="precision_manufacturing"
-                title="Plugins"
-                description="Get inspiration and have an overview about the plugins that we used to create the Material Kit."
-                action={{
-                  type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/datepicker/",
-                  label: "Read more",
-                }}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <FilledInfoCard
-                color="info"
-                icon="apps"
-                title="Components"
-                description="Material Kit is giving you a lot of pre-made components, that will help you to build UI's faster."
-                action={{
-                  type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
-                  label: "Read more",
-                }}
-              />
-            </Grid>
-          </Grid>
-        </Container>
-        <Testimonials />
-        <Download />
+        <Information />
         <MKBox pt={18} pb={6}>
           <Container>
             <Grid container spacing={3}>

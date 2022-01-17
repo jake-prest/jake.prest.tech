@@ -24,10 +24,11 @@ import MKBox from "components/MKBox";
 import RotatingCard from "examples/Cards/RotatingCard";
 import RotatingCardFront from "examples/Cards/RotatingCard/RotatingCardFront";
 import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
-import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 
 // Images
-import bgFront from "assets/images/rotating-card-bg-front.jpeg";
+import mountainRangeLeft from "assets/images/mountainrange-left.png";
+import mountainRangeCenter from "assets/images/mountainrange-center.png";
+import mountainRangeRight from "assets/images/mountainrange-right.png";
 import bgBack from "assets/images/rotating-card-bg-back.jpeg";
 
 function Information() {
@@ -38,63 +39,86 @@ function Information() {
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront
-                image={bgFront}
-                icon="touch_app"
+                image={mountainRangeLeft}
+                icon="laptop_chromebook"
+                color="info"
                 title={
                   <>
-                    Feel the
+                    Creative
                     <br />
-                    Material Kit
+                    Projects
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="Examples of projects for you to experiment with, modify, assign, and share."
               />
               <RotatingCardBack
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                color="info"
+                title="Start Creating"
+                description=""
                 action={{
                   type: "internal",
                   route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  label: "Projects",
                 }}
               />
             </RotatingCard>
           </Grid>
-          <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
-            <Grid container spacing={3}>
-              <Grid item xs={12} md={6}>
-                <DefaultInfoCard
-                  icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
-                />
-              </Grid>
-              <Grid item xs={12} md={6}>
-                <DefaultInfoCard
-                  icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
-                />
-              </Grid>
-            </Grid>
-            <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
-              <Grid item xs={12} md={6}>
-                <DefaultInfoCard
-                  icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
-                />
-              </Grid>
-              <Grid item xs={12} md={6}>
-                <DefaultInfoCard
-                  icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
-                />
-              </Grid>
-            </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <RotatingCard>
+              <RotatingCardFront
+                image={mountainRangeCenter}
+                icon="sports_esports"
+                color="secondary"
+                title={
+                  <>
+                    Collaborative
+                    <br />
+                    Games
+                  </>
+                }
+                description="Fun and learning are not mutually exclusive. Check out these collaborative games built for crative problem solving."
+              />
+              <RotatingCardBack
+                image={bgBack}
+                color="secondary"
+                title="Play Together"
+                description=""
+                action={{
+                  type: "internal",
+                  route: "/sections/page-sections/page-headers",
+                  label: "Games",
+                }}
+              />
+            </RotatingCard>
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <RotatingCard>
+              <RotatingCardFront
+                image={mountainRangeRight}
+                icon="school"
+                color="info"
+                title={
+                  <>
+                    Educational
+                    <br />
+                    Tools
+                  </>
+                }
+                description="In order to transform education, you'll need a couple tools to help you."
+              />
+              <RotatingCardBack
+                image={bgBack}
+                color="info"
+                title="Start Testing"
+                description=""
+                action={{
+                  type: "internal",
+                  route: "/sections/page-sections/page-headers",
+                  label: "Tools",
+                }}
+              />
+            </RotatingCard>
           </Grid>
         </Grid>
       </Container>
