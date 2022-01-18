@@ -45,16 +45,7 @@ import bgImage from "assets/images/home-cover.jpg";
 function Presentation() {
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        action={{
-          type: "internal",
-          route: "/pages/authentication/sign-in",
-          label: "Login",
-          color: "info",
-        }}
-        sticky
-      />
+      <DefaultNavbar routes={routes} sticky />
       <MKBox
         minHeight="75vh"
         width="100%"

@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-/**
+/** 
   All of the routes for the Material Kit 2 React React are added here,
   You can add a new route, customize the routes and delete the routes here.
 
@@ -42,6 +42,12 @@ import Icon from "@mui/material/Icon";
 // @mui icons
 import GitHubIcon from "@mui/icons-material/GitHub";
 
+// Pages
+import AboutUs from "layouts/pages/landing-pages/about-us";
+import ContactUs from "layouts/pages/landing-pages/contact-us";
+import Author from "layouts/pages/landing-pages/author";
+import SignIn from "layouts/pages/authentication/sign-in";
+
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
 import Features from "layouts/sections/page-sections/featuers";
@@ -64,18 +70,49 @@ import Typography from "layouts/sections/elements/typography";
 
 const routes = [
   {
-    name: "project generator",
-    icon: <Icon>laptop_chromebook</Icon>,
+    name: "pages",
+    icon: <Icon>dashboard</Icon>,
     columns: 1,
     rowsPerColumn: 2,
-    route: "/project-generator",
-  },
-  {
-    name: "games",
-    icon: <Icon>sports_esports</Icon>,
     collapse: [
       {
-        name: "building psychological safety",
+        name: "landing pages",
+        collapse: [
+          {
+            name: "about us",
+            route: "/pages/landing-pages/about-us",
+            component: <AboutUs />,
+          },
+          {
+            name: "contact us",
+            route: "/pages/landing-pages/contact-us",
+            component: <ContactUs />,
+          },
+          {
+            name: "author",
+            route: "/pages/landing-pages/author",
+            component: <Author />,
+          },
+        ],
+      },
+      {
+        name: "account",
+        collapse: [
+          {
+            name: "sign in",
+            route: "/pages/authentication/sign-in",
+            component: <SignIn />,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "sections",
+    icon: <Icon>view_day</Icon>,
+    collapse: [
+      {
+        name: "page sections",
         description: "See all sections",
         dropdown: true,
         collapse: [
@@ -92,7 +129,7 @@ const routes = [
         ],
       },
       {
-        name: "ideation",
+        name: "navigation",
         description: "See all navigations",
         dropdown: true,
         collapse: [
@@ -114,7 +151,7 @@ const routes = [
         ],
       },
       {
-        name: "collaborative problem solving",
+        name: "input areas",
         description: "See all input areas",
         dropdown: true,
         collapse: [
@@ -131,7 +168,7 @@ const routes = [
         ],
       },
       {
-        name: "quiz and trivia",
+        name: "attention catchers",
         description: "See all examples",
         dropdown: true,
         collapse: [
@@ -153,7 +190,7 @@ const routes = [
         ],
       },
       {
-        name: "gamified curriculum",
+        name: "elements",
         description: "See all 32 examples",
         dropdown: true,
         collapse: [
@@ -202,8 +239,8 @@ const routes = [
     ],
   },
   {
-    name: "edtech tools",
-    icon: <Icon>school</Icon>,
+    name: "docs",
+    icon: <Icon>article</Icon>,
     collapse: [
       {
         name: "getting started",
@@ -230,7 +267,7 @@ const routes = [
   {
     name: "github",
     icon: <GitHubIcon />,
-    href: "https://github.com/jake-prest/jake.prest.tech",
+    href: "https://www.github.com/creativetimofficial/material-kit-react",
   },
 ];
 
