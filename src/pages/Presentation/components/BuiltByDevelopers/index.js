@@ -52,10 +52,10 @@ function BuiltByDevelopers() {
         <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
           We can&apos;t predict the future, and educators are really futurists after all. To prepare
           for an unpredictable world ripe with change, innovation, transition, and transformation we
-          must foster and promote creativity and problem solving through every facet of education.
-          We must learn how to adapt. We can&apos;t afford to rely on &lsquo;how it has always been
-          done&rsquo; to work in a world so different from &lsquo;how it used to be&rsquo;. We must
-          embrace creativity, and we must do so without fear, with passion, and with ferocity.
+          must foster and promote creativity through every facet of education. We must learn how to
+          adapt. We can&apos;t afford to rely on &lsquo;how it has always been done&rsquo; to work
+          in a world so different from &lsquo;how it used to be&rsquo;. We must embrace creativity,
+          and we must do so without fear, with passion, and with ferocity.
         </MKTypography>
         <MKTypography
           component="a"

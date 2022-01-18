@@ -44,12 +44,12 @@ function Information() {
                 color="info"
                 title={
                   <>
-                    Creative
+                    Project
                     <br />
-                    Projects
+                    Generator
                   </>
                 }
-                description="Here are some examples of projects for you to experiment with, modify, assign, and share."
+                description="Not sure where to start? Generate a project idea to experiment with, modify, assign, and share."
               />
               <RotatingCardBack
                 image={bgBack}
@@ -105,7 +105,7 @@ function Information() {
                     Tools
                   </>
                 }
-                description="In order to transform education, you'll need some educational tools to help you."
+                description="In order to transform education, you'll need some educational tools to help you. Browse these first."
               />
               <RotatingCardBack
                 image={bgBack}

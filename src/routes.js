@@ -42,6 +42,10 @@ import Icon from "@mui/material/Icon";
 // @mui icons
 import GitHubIcon from "@mui/icons-material/GitHub";
 
+// Pages
+import Author from "layouts/pages/landing-pages/author";
+import ProjectGenerator from "layouts/pages/landing-pages/project-generator";
+
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
 import Features from "layouts/sections/page-sections/featuers";
@@ -69,6 +73,7 @@ const routes = [
     columns: 1,
     rowsPerColumn: 2,
     route: "/project-generator",
+    component: <ProjectGenerator />,
   },
   {
     name: "games",
@@ -76,7 +81,7 @@ const routes = [
     collapse: [
       {
         name: "building psychological safety",
-        description: "See all sections",
+        description: "Build a Healthy Team",
         dropdown: true,
         collapse: [
           {
@@ -93,7 +98,7 @@ const routes = [
       },
       {
         name: "ideation",
-        description: "See all navigations",
+        description: "Warm Up Your Brain",
         dropdown: true,
         collapse: [
           {
@@ -115,7 +120,7 @@ const routes = [
       },
       {
         name: "collaborative problem solving",
-        description: "See all input areas",
+        description: "Think Your Way Out of the Box",
         dropdown: true,
         collapse: [
           {
@@ -132,7 +137,7 @@ const routes = [
       },
       {
         name: "quiz and trivia",
-        description: "See all examples",
+        description: "Fun Demonstration of Domain Knowledge",
         dropdown: true,
         collapse: [
           {
@@ -154,7 +159,7 @@ const routes = [
       },
       {
         name: "gamified curriculum",
-        description: "See all 32 examples",
+        description: "Games That Teach Content",
         dropdown: true,
         collapse: [
           {
@@ -231,6 +236,12 @@ const routes = [
     name: "github",
     icon: <GitHubIcon />,
     href: "https://github.com/jake-prest/jake.prest.tech",
+  },
+  {
+    name: "about me",
+    icon: <Icon>face</Icon>,
+    route: "/pages/landing-pages/author",
+    component: <Author />,
   },
 ];
 
