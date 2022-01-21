@@ -35,17 +35,7 @@ import bgImage from "assets/images/city-profile.jpg";
 function Author() {
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        action={{
-          type: "internal",
-          route: "/pages/authentication/sign-in",
-          label: "Login",
-          color: "info",
-        }}
-        transparent
-        light
-      />
+      <DefaultNavbar routes={routes} transparent light />
       <MKBox bgColor="white">
         <MKBox
           minHeight="25rem"

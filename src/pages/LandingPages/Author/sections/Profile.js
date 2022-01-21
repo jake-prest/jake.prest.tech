@@ -48,9 +48,58 @@ function Profile() {
                 </MKButton>
               </MKBox>
               <MKTypography variant="body1" fontWeight="light" color="text">
-                Decisions: If you can&apos;t decide, the answer is no. If two equally difficult
-                paths, choose the one more painful in the short term (pain avoidance is creating an
-                illusion of equality). Choose the path that leaves you more equanimous. <br />
+                I love learning. I love helping others through the learning process, too. I&apos;ve
+                been described as a golden retirevier due to my energetic freindliness, and a calm
+                leader during a crisis. I have two idols, one fictional and one who sadly passed
+                away in 2020: Captain Jean-Luc Picard for his leadership style, and Sir Ken Robinson
+                for his work on creativity in education.
+                <br />
+                <br />
+                <MKTypography variant="h4">Past</MKTypography>
+                During my time as a software developer, my favorite activity was helping new
+                developers get up to speed on the tech stack and jump in as a second pair of eyes
+                when they got stuck. As a cloud support engineer at AWS, it was my job to help some
+                of the largest companies on the web migrate their solutions to the cloud, and for
+                every migration there were code demos, whiteboard sessions, load tests, failed
+                tests, and midnight deployments – each a lesson. As an operations manager I led a
+                team of 24 engineers to help these same customers all around the world, and I loved
+                teaching them the skills they need to be successful engineers, and inspiring them to
+                further their careers. Looking back at my time in tech it&apos;s now clear that I
+                kept searching for more and more opportunities to help people learn, from software
+                developer to manager, from individual contributor to force multiplier. In 2020 I
+                realized that while I was doing great work, working with amazing people, and having
+                a lot of fun, I wasn’t in the right place. I needed to fully embrace learning as my
+                career, not just in my career. I combined my skill set with my passion, and embarked
+                on a new career in educational technology.
+                <br />
+                <br />
+                <MKTypography variant="h4">Present</MKTypography>
+                I’m currently the Technology Integration Manager at the UCD Innovation Academy in
+                Dublin, Ireland. I facilitate learning for undergraduates, postgraduates, lifelong
+                learners, and fellow educators. I&apos;m a passionate and patient educational
+                technologist to my colleagues when we are innovating our teaching and learning
+                practice, and an engaging facilitator to students enrolled in Creative Thinking and
+                Innovation. I’m the technical product manager for our Virtual Reality Transversal
+                Skills learning experience, and an insightful coach to students enrolled in Design
+                Thinking. I’m leading a team to build out a new makerspace and sustainable living
+                lab from scratch so that our students have the space to explore, create, and
+                innovate sustainably. I wear many hats because I love learning, and I love helping
+                others through the learning process.
+                <br />
+                <br />
+                <MKTypography variant="h4">Future</MKTypography>
+                I&apos;m still on my learning journey, and I hope that I always will be. In my
+                transition from tech guy to educational technoligist, I completed a Masters of
+                Education in Educational Technology Leadership. Next, I want to teach at a K-12
+                institution in Virginia. I want to make Computer Science as ubiquitous as Algebra,
+                and as accessible as literature. I want to tranform biology lessons with technology
+                so students can experience what&apos;s under a microscope rather than just see it. I
+                want to embed creativity into every facet of education through the promoting
+                psychological safety, amplifying collaboration, reducing the fear of failure, and
+                implementing project based learning. If you&apos;d like to help me along the way,
+                please reach out on
+                <a href="https://www.linkedin.com/in/jakeprest/"> LinkedIn</a> at any time, I&apos;d
+                love to hear from you.
               </MKTypography>
             </Grid>
           </Grid>

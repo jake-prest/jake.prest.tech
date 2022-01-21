@@ -13,9 +13,6 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// react-router-dom components
-import { Link } from "react-router-dom";
-
 // @mui material components
 import Card from "@mui/material/Card";
 import Grid from "@mui/material/Grid";
@@ -24,11 +21,14 @@ import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKButton from "components/MKButton";
-import MKAvatar from "components/MKAvatar";
+import MKProgress from "components/MKProgress";
 
 // Material Kit 2 React example components
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
+
+// My components
+import StateMachine from "pages/LandingPages/ProjectGenerator/sections/StateMachine";
 
 // Material Kit 2 React page layout routes
 import routes from "routes";
@@ -36,7 +36,6 @@ import footerRoutes from "footer.routes";
 
 // Images
 import bgImage from "assets/images/bg-sign-in-basic.jpeg";
-import humanities from "assets/images/linkedin-photo.jpg";
 
 function ProjectGenerator() {
   return (
@@ -79,43 +78,16 @@ function ProjectGenerator() {
                   Project Generator
                 </MKTypography>
               </MKBox>
+              <StateMachine />
               <MKBox pt={4} pb={3} px={3}>
                 <MKBox>
-                  <Grid
-                    container
-                    spacing={2}
-                    justifyContent="center"
-                    alignItems="center"
-                    height="100%"
-                  >
-                    <Grid item justifyContent="center" alignItems="center">
-                      <MKAvatar src={humanities} alt="Humanities" size="xxl" shadow="xl" />
-                      Humanities
-                    </Grid>
-                    <Grid item justifyContent="center" alignItems="center">
-                      <MKAvatar src={humanities} alt="STEM" size="xxl" shadow="xl" />
-                      STEM
-                    </Grid>
-                  </Grid>
                   <MKBox mt={4} mb={1}>
-                    <MKButton variant="gradient" color="info" fullWidth>
+                    <MKButton disabled variant="gradient" color="info" fullWidth>
                       generate
                     </MKButton>
-                  </MKBox>
-                  <MKBox mt={3} mb={1} textAlign="center">
-                    <MKTypography variant="button" color="text">
-                      Don&apos;t have an account?{" "}
-                      <MKTypography
-                        component={Link}
-                        to="/authentication/sign-up/cover"
-                        variant="button"
-                        color="info"
-                        fontWeight="medium"
-                        textGradient
-                      >
-                        Sign up
-                      </MKTypography>
-                    </MKTypography>
+                    <MKProgress value="50" color="info">
+                      Choice 2
+                    </MKProgress>
                   </MKBox>
                 </MKBox>
               </MKBox>

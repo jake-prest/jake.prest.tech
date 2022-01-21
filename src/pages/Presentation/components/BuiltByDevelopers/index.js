@@ -47,7 +47,7 @@ function BuiltByDevelopers() {
           My Paradigm
         </MKTypography>
         <MKTypography variant="h1" color="white" mb={1}>
-          Radical Creativity
+          Creativity, Everywhere
         </MKTypography>
         <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
           We can&apos;t predict the future, and educators are really futurists after all. To prepare
@@ -59,7 +59,7 @@ function BuiltByDevelopers() {
         </MKTypography>
         <MKTypography
           component="a"
-          href="https://www.creative-tim.com/learning-lab/react/overview/material-kit/"
+          href="/pages/landing-pages/author"
           target="_blank"
           rel="noreferrer"
           variant="body2"
@@ -80,7 +80,7 @@ function BuiltByDevelopers() {
             },
           }}
         >
-          Tell me more <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+          About me <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
         </MKTypography>
       </Container>
     </MKBox>
