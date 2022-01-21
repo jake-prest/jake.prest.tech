@@ -80,7 +80,7 @@ function Presentation() {
               mt={1}
             >
               Learning occurs everywhere, all the time. <br />
-              Let this place help you where ever you are.
+              Let this place help you, wherever you are, any time.
             </MKTypography>
           </Grid>
         </Container>

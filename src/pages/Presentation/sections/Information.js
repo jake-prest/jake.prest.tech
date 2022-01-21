@@ -58,7 +58,7 @@ function Information() {
                 description=""
                 action={{
                   type: "internal",
-                  route: "/sections/page-sections/page-headers",
+                  route: "/project-generator",
                   label: "Projects",
                 }}
               />

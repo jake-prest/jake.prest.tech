@@ -49,10 +49,10 @@ function Profile() {
               </MKBox>
               <MKTypography variant="body1" fontWeight="light" color="text">
                 I love learning. I love helping others through the learning process, too. I&apos;ve
-                been described as a golden retirevier due to my energetic freindliness, and a calm
-                leader during a crisis. I have two idols, one fictional and one who sadly passed
-                away in 2020: Captain Jean-Luc Picard for his leadership style, and Sir Ken Robinson
-                for his work on creativity in education.
+                been described as a golden retriever (energetic and caring) during everyday work,
+                and a calm leader (logical and decisive) during crisis. I have two idols, one
+                fictional and one who sadly passed away in 2020: Captain Jean-Luc Picard for his
+                leadership style, and Sir Ken Robinson for his work on creativity in education.
                 <br />
                 <br />
                 <MKTypography variant="h4">Past</MKTypography>
@@ -63,8 +63,8 @@ function Profile() {
                 every migration there were code demos, whiteboard sessions, load tests, failed
                 tests, and midnight deployments – each a lesson. As an operations manager I led a
                 team of 24 engineers to help these same customers all around the world, and I loved
-                teaching them the skills they need to be successful engineers, and inspiring them to
-                further their careers. Looking back at my time in tech it&apos;s now clear that I
+                teaching my team the skills they need to be successful engineers, and inspiring them
+                to further their careers. Looking back at my time in tech it&apos;s now clear that I
                 kept searching for more and more opportunities to help people learn, from software
                 developer to manager, from individual contributor to force multiplier. In 2020 I
                 realized that while I was doing great work, working with amazing people, and having
@@ -80,7 +80,7 @@ function Profile() {
                 technologist to my colleagues when we are innovating our teaching and learning
                 practice, and an engaging facilitator to students enrolled in Creative Thinking and
                 Innovation. I’m the technical product manager for our Virtual Reality Transversal
-                Skills learning experience, and an insightful coach to students enrolled in Design
+                Skills learning experience, and a socratic coach to students enrolled in Design
                 Thinking. I’m leading a team to build out a new makerspace and sustainable living
                 lab from scratch so that our students have the space to explore, create, and
                 innovate sustainably. I wear many hats because I love learning, and I love helping
@@ -89,12 +89,12 @@ function Profile() {
                 <br />
                 <MKTypography variant="h4">Future</MKTypography>
                 I&apos;m still on my learning journey, and I hope that I always will be. In my
-                transition from tech guy to educational technoligist, I completed a Masters of
+                transition from tech guy to educational technologist, I completed a Masters of
                 Education in Educational Technology Leadership. Next, I want to teach at a K-12
-                institution in Virginia. I want to make Computer Science as ubiquitous as Algebra,
-                and as accessible as literature. I want to tranform biology lessons with technology
-                so students can experience what&apos;s under a microscope rather than just see it. I
-                want to embed creativity into every facet of education through the promoting
+                institution in Richmond, Virginia. I want to make Computer Science as ubiquitous as
+                Algebra, and as accessible as literature. I want to tranform biology lessons with
+                technology so students can experience what&apos;s under a microscope rather than
+                just see it. I want to embed creativity into every facet of education by promoting
                 psychological safety, amplifying collaboration, reducing the fear of failure, and
                 implementing project based learning. If you&apos;d like to help me along the way,
                 please reach out on

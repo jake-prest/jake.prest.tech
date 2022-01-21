@@ -47,7 +47,7 @@ function BuiltByDevelopers() {
           My Paradigm
         </MKTypography>
         <MKTypography variant="h1" color="white" mb={1}>
-          Creativity, Everywhere
+          Creativity Everywhere
         </MKTypography>
         <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
           We can&apos;t predict the future, and educators are really futurists after all. To prepare

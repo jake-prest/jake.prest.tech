@@ -38,37 +38,69 @@ export default {
   ],
   menus: [
     {
-      name: "projects",
-      items: [
-        { name: "about us", href: "https://www.creative-tim.com/presentation" },
-        { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
-        { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
-        { name: "blog", href: "https://www.creative-tim.com/blog" },
-      ],
+      name: "Apps",
+      items: [{ name: "project generator", href: "/project-generator" }],
     },
     {
       name: "games",
       items: [
-        { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-        { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
+        {
+          name: "building psychological safety",
+          href: "/games/building-psychological-safety",
+        },
+        {
+          name: "ideation",
+          href: "/games/ideation",
+        },
+        {
+          name: "collaborative problem solving",
+          href: "/games/collaborative-problem-solving",
+        },
+        {
+          name: "quiz and trivia",
+          href: "/games/quiz-and-trivia",
+        },
+        {
+          name: "gamified curriculum",
+          href: "/games/gamified-curriculum",
+        },
       ],
     },
     {
       name: "tools",
       items: [
-        { name: "terms & conditions", href: "https://www.creative-tim.com/terms" },
-        { name: "privacy policy", href: "https://www.creative-tim.com/privacy" },
-        { name: "licenses (EULA)", href: "https://www.creative-tim.com/license" },
+        {
+          name: "EdTech Frameworks",
+          href: "/tools/edtech-frameworks",
+        },
+        {
+          name: "Collaboration",
+          href: "/tools/collaboration",
+        },
+        {
+          name: "Audio and Video Production",
+          href: "/tools/audio-and-video-production",
+        },
+        {
+          name: "Maker Tools",
+          href: "/tools/maker-tools",
+        },
+        {
+          name: "Content Delivery",
+          href: "/tools/content-delivery",
+        },
+        {
+          name: "Virtual Learning Environments",
+          href: "/tools/virtual-learning-environments",
+        },
       ],
     },
     {
-      name: "help & support",
+      name: "About",
       items: [
-        { name: "contact us", href: "https://www.creative-tim.com/contact-us" },
-        { name: "knowledge center", href: "https://www.creative-tim.com/knowledge-center" },
-        { name: "custom development", href: "https://services.creative-tim.com/" },
-        { name: "sponsorships", href: "https://www.creative-tim.com/sponsorships" },
+        { name: "About Me", href: "/pages/landing-pages/author" },
+        { name: "GitHub", href: "https://github.com/jake-prest/jake.prest.tech" },
+        { name: "LinkedIn", href: "https://www.linkedin.com/in/jakeprest/" },
       ],
     },
   ],

@@ -55,7 +55,7 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com"
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -68,11 +68,11 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com/presentation"
+                  href="/project-generator"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Projects
+                  Project Generator
                 </MKTypography>
               </MKBox>
               <MKBox component="li">

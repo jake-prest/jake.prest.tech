@@ -46,26 +46,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import Author from "layouts/pages/landing-pages/author";
 import ProjectGenerator from "layouts/pages/landing-pages/project-generator";
 
-// Sections
-import PageHeaders from "layouts/sections/page-sections/page-headers";
-import Features from "layouts/sections/page-sections/featuers";
-import Navbars from "layouts/sections/navigation/navbars";
-import NavTabs from "layouts/sections/navigation/nav-tabs";
-import Pagination from "layouts/sections/navigation/pagination";
-import Inputs from "layouts/sections/input-areas/inputs";
-import Forms from "layouts/sections/input-areas/forms";
-import Alerts from "layouts/sections/attention-catchers/alerts";
-import Modals from "layouts/sections/attention-catchers/modals";
-import TooltipsPopovers from "layouts/sections/attention-catchers/tooltips-popovers";
-import Avatars from "layouts/sections/elements/avatars";
-import Badges from "layouts/sections/elements/badges";
-import BreadcrumbsEl from "layouts/sections/elements/breadcrumbs";
-import Buttons from "layouts/sections/elements/buttons";
-import Dropdowns from "layouts/sections/elements/dropdowns";
-import ProgressBars from "layouts/sections/elements/progress-bars";
-import Toggles from "layouts/sections/elements/toggles";
-import Typography from "layouts/sections/elements/typography";
-
 const routes = [
   {
     name: "project generator",
@@ -82,127 +62,27 @@ const routes = [
       {
         name: "building psychological safety",
         description: "Build a Healthy Team",
-        dropdown: true,
-        collapse: [
-          {
-            name: "page headers",
-            route: "/sections/page-sections/page-headers",
-            component: <PageHeaders />,
-          },
-          {
-            name: "features",
-            route: "/sections/page-sections/features",
-            component: <Features />,
-          },
-        ],
+        href: "/games/building-psychological-safety",
       },
       {
         name: "ideation",
         description: "Warm Up Your Brain",
-        dropdown: true,
-        collapse: [
-          {
-            name: "navbars",
-            route: "/sections/navigation/navbars",
-            component: <Navbars />,
-          },
-          {
-            name: "nav tabs",
-            route: "/sections/navigation/nav-tabs",
-            component: <NavTabs />,
-          },
-          {
-            name: "pagination",
-            route: "/sections/navigation/pagination",
-            component: <Pagination />,
-          },
-        ],
+        href: "/games/ideation",
       },
       {
         name: "collaborative problem solving",
         description: "Think Your Way Out of the Box",
-        dropdown: true,
-        collapse: [
-          {
-            name: "inputs",
-            route: "/sections/input-areas/inputs",
-            component: <Inputs />,
-          },
-          {
-            name: "forms",
-            route: "/sections/input-areas/forms",
-            component: <Forms />,
-          },
-        ],
+        href: "/games/collaborative-problem-solving",
       },
       {
         name: "quiz and trivia",
         description: "Fun Demonstration of Domain Knowledge",
-        dropdown: true,
-        collapse: [
-          {
-            name: "alerts",
-            route: "/sections/attention-catchers/alerts",
-            component: <Alerts />,
-          },
-          {
-            name: "modals",
-            route: "/sections/attention-catchers/modals",
-            component: <Modals />,
-          },
-          {
-            name: "tooltips & popovers",
-            route: "/sections/attention-catchers/tooltips-popovers",
-            component: <TooltipsPopovers />,
-          },
-        ],
+        href: "/games/quiz-and-trivia",
       },
       {
         name: "gamified curriculum",
         description: "Games That Teach Content",
-        dropdown: true,
-        collapse: [
-          {
-            name: "avatars",
-            route: "/sections/elements/avatars",
-            component: <Avatars />,
-          },
-          {
-            name: "badges",
-            route: "/sections/elements/badges",
-            component: <Badges />,
-          },
-          {
-            name: "breadcrumbs",
-            route: "/sections/elements/breadcrumbs",
-            component: <BreadcrumbsEl />,
-          },
-          {
-            name: "buttons",
-            route: "/sections/elements/buttons",
-            component: <Buttons />,
-          },
-          {
-            name: "dropdowns",
-            route: "/sections/elements/dropdowns",
-            component: <Dropdowns />,
-          },
-          {
-            name: "progress bars",
-            route: "/sections/elements/progress-bars",
-            component: <ProgressBars />,
-          },
-          {
-            name: "toggles",
-            route: "/sections/elements/toggles",
-            component: <Toggles />,
-          },
-          {
-            name: "typography",
-            route: "/sections/elements/typography",
-            component: <Typography />,
-          },
-        ],
+        href: "/games/gamified-curriculum",
       },
     ],
   },
@@ -211,24 +91,34 @@ const routes = [
     icon: <Icon>school</Icon>,
     collapse: [
       {
-        name: "getting started",
-        description: "All about overview, quick start, license and contents",
-        href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/",
+        name: "EdTech Frameworks",
+        description: "How to apply EdTech",
+        href: "/tools/edtech-frameworks",
       },
       {
-        name: "foundation",
-        description: "See our colors, icons and typography",
-        href: "https://www.creative-tim.com/learning-lab/react/colors/material-kit/",
+        name: "Collaboration",
+        description: "Tools to Work Together From Anywhere",
+        href: "/tools/collaboration",
       },
       {
-        name: "components",
-        description: "Explore our collection of fully designed components",
-        href: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
+        name: "Audio and Video Production",
+        description: "Basic to Professional Grade Tools to Make Content",
+        href: "/tools/audio-and-video-production",
       },
       {
-        name: "plugins",
-        description: "Check how you can integrate our plugins",
-        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
+        name: "Maker Tools",
+        description: "Hands On Tools for Authentic Learning",
+        href: "/tools/maker-tools",
+      },
+      {
+        name: "Content Delivery",
+        description: "Lectures and Lessons Designed for the Digital Age",
+        href: "/tools/content-delivery",
+      },
+      {
+        name: "Virtual Learning Environments",
+        description: "Tools That Make Class Accecssible Anywhere, Anytime",
+        href: "/tools/virtual-learning-environments",
       },
     ],
   },
