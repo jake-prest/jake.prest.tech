@@ -5,13 +5,13 @@
   "author": "Jake Prest",
   "license": "See license in https://www.creative-tim.com/license",
   "description": "Jake Prest portfolio and education center",
-  "homepage": "https://s3.eu-west-1.amazonaws.com/jake.prest.tech/",
+  "homepage": "/",
   "bugs": {
     "url": ""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jake-prest/place"
+    "url": "https://github.com/jake-prest/jake.prest.tech"
   },
   "engines": {
     "node": "14 || 15 || 16",
