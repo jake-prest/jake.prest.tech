@@ -30,8 +30,6 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // Presentation page sections
 
-import Information from "pages/Presentation/sections/Information";
-
 // Presentation page components
 import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
 
@@ -99,7 +97,6 @@ function Presentation() {
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
         </Container>
-        <Information />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
