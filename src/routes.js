@@ -44,48 +44,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 // Pages
 import Author from "layouts/pages/landing-pages/author";
-import ProjectGenerator from "layouts/pages/landing-pages/project-generator";
 
 const routes = [
-  {
-    name: "project generator",
-    icon: <Icon>laptop_chromebook</Icon>,
-    columns: 1,
-    rowsPerColumn: 2,
-    route: "/project-generator",
-    component: <ProjectGenerator />,
-  },
-  {
-    name: "games",
-    icon: <Icon>sports_esports</Icon>,
-    collapse: [
-      {
-        name: "building psychological safety",
-        description: "Build a Healthy Team",
-        href: "/games/building-psychological-safety",
-      },
-      {
-        name: "ideation",
-        description: "Warm Up Your Brain",
-        href: "/games/ideation",
-      },
-      {
-        name: "collaborative problem solving",
-        description: "Think Your Way Out of the Box",
-        href: "/games/collaborative-problem-solving",
-      },
-      {
-        name: "quiz and trivia",
-        description: "Fun Demonstration of Domain Knowledge",
-        href: "/games/quiz-and-trivia",
-      },
-      {
-        name: "gamified curriculum",
-        description: "Games That Teach Content",
-        href: "/games/gamified-curriculum",
-      },
-    ],
-  },
   {
     name: "edtech tools",
     icon: <Icon>school</Icon>,

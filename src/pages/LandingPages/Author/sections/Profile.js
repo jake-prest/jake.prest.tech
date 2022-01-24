@@ -50,7 +50,7 @@ function Profile() {
               <MKTypography variant="body1" fontWeight="light" color="text">
                 I love learning. I love helping others through the learning process, too. I&apos;ve
                 been described as a golden retriever (energetic and caring) during everyday work,
-                and a calm leader (logical and decisive) during crisis. I have two idols, one
+                and a calm leader (logical and decisive) during a crisis. I have two idols, one
                 fictional and one who sadly passed away in 2020: Captain Jean-Luc Picard for his
                 leadership style, and Sir Ken Robinson for his work on creativity in education.
                 <br />
@@ -68,9 +68,9 @@ function Profile() {
                 kept searching for more and more opportunities to help people learn, from software
                 developer to manager, from individual contributor to force multiplier. In 2020 I
                 realized that while I was doing great work, working with amazing people, and having
-                a lot of fun, I wasn’t in the right place. I needed to fully embrace learning as my
-                career, not just in my career. I combined my skill set with my passion, and embarked
-                on a new career in educational technology.
+                a lot of fun, I wasn’t in the right place. I needed to fully embrace learning{" "}
+                <i>as</i> my career, not just <i>in</i> my career. I combined my skill set with my
+                passion, and embarked on a new career in educational technology.
                 <br />
                 <br />
                 <MKTypography variant="h4">Present</MKTypography>
@@ -96,8 +96,8 @@ function Profile() {
                 technology so students can experience what&apos;s under a microscope rather than
                 just see it. I want to embed creativity into every facet of education by promoting
                 psychological safety, amplifying collaboration, reducing the fear of failure, and
-                implementing project based learning. If you&apos;d like to help me along the way,
-                please reach out on
+                implementing project based learning. If you&apos;d like to help me along the way, or
+                if you&apos;d like help along your way, please reach out on
                 <a href="https://www.linkedin.com/in/jakeprest/"> LinkedIn</a> at any time, I&apos;d
                 love to hear from you.
               </MKTypography>

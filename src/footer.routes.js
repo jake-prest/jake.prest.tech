@@ -38,35 +38,6 @@ export default {
   ],
   menus: [
     {
-      name: "Apps",
-      items: [{ name: "project generator", href: "/project-generator" }],
-    },
-    {
-      name: "games",
-      items: [
-        {
-          name: "building psychological safety",
-          href: "/games/building-psychological-safety",
-        },
-        {
-          name: "ideation",
-          href: "/games/ideation",
-        },
-        {
-          name: "collaborative problem solving",
-          href: "/games/collaborative-problem-solving",
-        },
-        {
-          name: "quiz and trivia",
-          href: "/games/quiz-and-trivia",
-        },
-        {
-          name: "gamified curriculum",
-          href: "/games/gamified-curriculum",
-        },
-      ],
-    },
-    {
       name: "tools",
       items: [
         {
