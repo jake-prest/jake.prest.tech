@@ -32,6 +32,9 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // Presentation page components
 import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
+import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
+
+import Newsletter from "pages/LandingPages/EdTechFrameworks/sections/Newsletter";
 
 // Routes
 import routes from "routes";
@@ -98,6 +101,8 @@ function Presentation() {
           <BuiltByDevelopers />
         </Container>
       </Card>
+      <DesignBlocks />
+      <Newsletter />
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>

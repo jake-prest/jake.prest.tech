@@ -78,11 +78,11 @@ function DesignBlocks() {
             sx={{ mb: 2 }}
           />
           <MKTypography variant="h2" fontWeight="bold">
-            Huge collection of sections
+            Tools I&apos;m Fond Of
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            We have created multiple options for you to put together and customise into pixel
-            perfect pages.
+            I&apos;ve collected a suite of tools to use in your educational practice. These tools
+            are not the only great tools out there, just the ones I&apos;d like to share.
           </MKTypography>
         </Grid>
       </Container>
