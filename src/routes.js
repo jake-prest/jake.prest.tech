@@ -44,6 +44,11 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 // Pages
 import Author from "layouts/pages/landing-pages/author";
+import EdTechFrameworks from "layouts/pages/tools/edtech-frameworks";
+import Collaboration from "layouts/pages/tools/collaboration";
+import AudioAndVideoProduction from "layouts/pages/tools/audio-and-video-production";
+import MakerTools from "layouts/pages/tools/maker-tools";
+import VirtualLearningEnvironments from "layouts/pages/tools/virtual-learning-environments";
 
 const routes = [
   {
@@ -53,32 +58,32 @@ const routes = [
       {
         name: "EdTech Frameworks",
         description: "How to apply EdTech",
-        href: "/tools/edtech-frameworks",
+        route: "/tools/edtech-frameworks",
+        component: <EdTechFrameworks />,
       },
       {
         name: "Collaboration",
         description: "Tools to Work Together From Anywhere",
-        href: "/tools/collaboration",
+        route: "/tools/collaboration",
+        component: <Collaboration />,
       },
       {
         name: "Audio and Video Production",
         description: "Basic to Professional Grade Tools to Make Content",
-        href: "/tools/audio-and-video-production",
+        route: "/tools/audio-and-video-production",
+        component: <AudioAndVideoProduction />,
       },
       {
         name: "Maker Tools",
         description: "Hands On Tools for Authentic Learning",
-        href: "/tools/maker-tools",
-      },
-      {
-        name: "Content Delivery",
-        description: "Lectures and Lessons Designed for the Digital Age",
-        href: "/tools/content-delivery",
+        route: "/tools/maker-tools",
+        component: <MakerTools />,
       },
       {
         name: "Virtual Learning Environments",
         description: "Tools That Make Class Accecssible Anywhere, Anytime",
-        href: "/tools/virtual-learning-environments",
+        route: "/tools/virtual-learning-environments",
+        component: <VirtualLearningEnvironments />,
       },
     ],
   },
@@ -90,7 +95,7 @@ const routes = [
   {
     name: "about me",
     icon: <Icon>face</Icon>,
-    route: "/pages/landing-pages/author",
+    route: "/me",
     component: <Author />,
   },
 ];

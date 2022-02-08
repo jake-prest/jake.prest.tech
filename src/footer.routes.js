@@ -57,10 +57,6 @@ export default {
           href: "/tools/maker-tools",
         },
         {
-          name: "Content Delivery",
-          href: "/tools/content-delivery",
-        },
-        {
           name: "Virtual Learning Environments",
           href: "/tools/virtual-learning-environments",
         },
